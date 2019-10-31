@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="Ecryptor.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <script  src="Ecryptor.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <title>jhbTHE-ENCRYPTORjkhf</title>
+  </head>
+  <body>
+    <h1><span id="title">THE-ENCRYPTOR</span></h1>
+    <div class="mBody" align="center">
+      <div class="ENC">
+        <button type="button" name="button" class="btn btn-info mBtn" id="vENC">Encryptor</button>
+        <div id="voENC" class="form">
+          <div class="inputs">
+            <p>Your phrase to be encrypted</p>
+            <input type="text" id="M">
+          </div>
+          <div class="inputs">
+            <p>Your key to encrpyt with</p>
+            <input type="password" id="K">
+            <div>
+              <button class="btn btn-danger submit" id="ENC">Encrypt It!</button>
+            </div>
+            <p id="vOut" class="oPut"></p>
+          </div>
+        </div>
+      </div>
+      <hr class="mid">
+      <div class="DEC">
+        <button type="button" name="button" class="btn btn-info mBtn" id="vDEC">Decryptor</button>
+        <div id="voDEC" class="form">
+          <div class="inputs">
+            <p>Your phrase to be decrypted</p>
+            <input type="text" id="C">
+          </div>
+          <div class="inputs">
+            <p>Your key to Decrpyt with</p>
+            <input type="password" id="cK">
+            <div>
+              <button class="btn btn-danger submit" id="DEC">Decrypt It!</button>
+            </div>
+            <p id="vdOut" class="oPut"></p>
+          </div>
+        </div>
+        </div>
+        <p id="tag">Created By: Joseph Kelley</p>
+      </div>
+      <div class="container-fluid" id="footer">
+        <p>Extra Options</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="">
+              <span>Dashes when printed? <input type="checkbox" id="dsh" checked></span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="">
+              <a href="eInstructions.html">Instructions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <script  src="Ecryptor.js" type="text/javascript"></script>
+  </body>
+</html>
